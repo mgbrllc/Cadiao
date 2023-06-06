@@ -44,10 +44,6 @@ public class TextGameScript : MonoBehaviour
         StoryText = "Bacon and Eggs are my favorite!";
         STAMINAVal -= 1;
         HPVal += 1;
-        if (STAMINAVal <= 0 || HPVal <= 0)
-        {
-            StoryText = "You are out of stamina!";
-        }
     }
 
     public void Button2()
@@ -55,10 +51,6 @@ public class TextGameScript : MonoBehaviour
         StoryText = "My breath is fresh now!";
         STAMINAVal -= 1;
         HPVal += 1;
-        if (STAMINAVal <= 0 || HPVal <= 0)
-        {
-            StoryText = "You are out of stamina!";
-        }
     }
 
     public void Button3()
@@ -66,9 +58,5 @@ public class TextGameScript : MonoBehaviour
         StoryText = "Your pet wants more belly rubs!";
         STAMINAVal += 2;
         HPVal += 1;
-        if (STAMINAVal <= 0 || HPVal <= 0)
-        {
-            StoryText = "You are out of stamina!";
-        }
     }
 }
